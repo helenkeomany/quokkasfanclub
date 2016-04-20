@@ -1,0 +1,51 @@
+body {
+  color: #383A3B;
+  background-color: #EDF0EF;
+  text-align: center;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  font-size: 2.5em;
+}
+.container {
+  border: 2.5px solid #fff;
+  width: 650px;
+  max-width: none;
+  margin: 40px auto 0;
+  background-color: #CBF2EE;
+}
+p {
+  color: #383A3B;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  padding: 25px;
+}
+li {
+  display: inline;
+  text-decoration: none;
+  padding-right: 35px;
+  font-family: 'Lora', serif;
+  font-size: 1.15em;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  padding: 2px 4px;
+}
+a:hover {
+    background-color: white;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:visited {
+    color: #606161;
+}
+.quokka {
+  width: 400px;
+  padding-bottom: 30px;
+}
