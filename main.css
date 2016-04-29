@@ -37,6 +37,14 @@ p {
   padding: 0 0 25px;
   text-align: left;
 }
+.facts p {
+  padding: 0 0 0;
+  margin: 0 0 0;
+  line-height: 1.75;
+}
+.facts {
+  margin-bottom: 15px;
+}
 li {
   display: inline;
   text-decoration: none;
