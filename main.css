@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   color: #383A3B;
   background-image: url("images/congruent_pentagon.png");
@@ -5,22 +8,23 @@ body {
 }
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-weight: lighter;
-  font-size: 2.5em;
-  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 2.50em;
+  margin: 0;
 }
 h3 {
   font-family: 'Oswald', sans-serif;
-  font-weight: lighter;
-  font-size: 1.5em;
+  font-weight: 300;
+  font-size: 1.50em;
   text-align: left;
-  padding: 15px 60px 0;
+  padding: 15px 0 0;
   margin-bottom: 0;
 }
 .container {
   border: 2.5px solid #fff;
   width: 650px;
   max-width: none;
+  padding: 3rem 5rem;
   margin: 40px auto;
   background-color: #F5F5F5;
   box-shadow: 0 1px 8px rgba(0,0,0,0.3);
@@ -28,20 +32,35 @@ h3 {
 p {
   color: #383A3B;
   font-family: 'Brawler', serif;
-  padding: 0 60px 25px;
+  font-size: 1em;
+  line-height: 1.5;
+  padding: 0 0 25px;
   text-align: left;
+}
+.facts p {
+  padding: 0 0 0;
+  margin: 0 0 0;
+  line-height: 1.75;
+}
+.facts {
+  margin-bottom: 15px;
 }
 li {
   display: inline;
   text-decoration: none;
   padding-right: 35px;
-  font-family: 'Brawler', serif;
+  font-family: 'Oswald', serif;
+  font-weight: lighter;
   font-size: 1.15em;
   list-style-type: none;
-  margin-top: 10px;
+  margin-top: 0;
+  letter-spacing: .75px;
+}
+img {
+  width: 475px;
 }
 ul {
-  margin-top: 10px;
+  margin: 10px 0 0;
 }
 a {
   text-decoration: none;
