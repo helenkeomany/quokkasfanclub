@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>QCC</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="main.css">
+        <link href='https://fonts.googleapis.com/css?family=Brawler|Oswald:300,400' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <div class="container">
+        <h1>Quokkas Coding Club</h1>
+        <ul>
+          <li><a href="index.html">Blog</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="funfacts.html">Fun Facts</a></li>
+        </ul>
+        <img src="images/quokka.jpg" class="quokka">
+      <div class="facts">
+        <p>Fun Facts About Quokkas</p>
+        <p>1. They are nocturnal, like bats.</p>
+        <p>2. They are illegal to handle. </p>
+        <p>3. They weigh about 6 lbs as adults.</p>
+        <p>4. They are the smallest of the macropods, which include kangaroos and wallabies (like Rocko from Rocko's Modern Life).</p>
+      </div>
+        <form action="/charge" method="POST">
+          <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="pk_test_Qe91xn4zahSd5xCl3aTYn6k5"
+          data-amount="2000"
+          data-name="Give your money to them"
+          data-description="2 widgets"
+          data-label="Give them your money"
+          data-image="/images/money.png"
+          data-locale="auto">
+        </script>
+      </form>
+    </div>
+    </body>
+</html>

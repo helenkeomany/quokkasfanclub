@@ -27,8 +27,7 @@ h3 {
 }
 p {
   color: #383A3B;
-  font-family: 'Lora', serif;
-  font-style: italic;
+  font-family: 'Brawler', serif;
   padding: 0 60px 25px;
   text-align: left;
 }
@@ -36,7 +35,7 @@ li {
   display: inline;
   text-decoration: none;
   padding-right: 35px;
-  font-family: 'Lora', serif;
+  font-family: 'Brawler', serif;
   font-size: 1.15em;
   list-style-type: none;
   margin-top: 10px;
